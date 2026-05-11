@@ -85,7 +85,7 @@ export default function Home() {
           <div className="window-body" style={{ padding: 0 }}>
             {/* Neon Header */}
             <div className="neon-bar" style={{ fontSize: '14px', letterSpacing: '2px' }}>
-              ■■■ VIDEO_FEED://SNOWBALL/DO_NOT_PAUSE ■■■
+              ■■■ SNOW_RUN_FEED://SNOWBALL/DO_NOT_PAUSE ■■■
             </div>
 
             {/* Main Content */}
@@ -287,7 +287,7 @@ Every exit strengthens those who stay.
                     { name: '❄️ SNOWFLAKE', range: '0-1K SNOW', yield: '1.0x', color: '#4682B4', desc: 'Entry Tier' },
                     { name: '⛄ SNOWMAN', range: '1K-10K SNOW', yield: '1.2x', color: '#5F9EA0', desc: 'Fee: -0.5%' },
                     { name: '🏔️ AVALANCHE', range: '10K-100K SNOW', yield: '1.5x', color: '#4169E1', desc: 'Fee: -1% + Priority' },
-                    { name: '🌨️ BLIZZARD', range: '100K+ SNOW', yield: '2.0x', color: '#0000CD', desc: 'Fee: -2% + DAO + NFT' },
+                    { name: '🌨️ BLIZZARD', range: '100K+ SNOW', yield: '2.0x', color: '#0000CD', desc: 'Fee: -2.5% + Premium Unlocks' },
                   ].map((tier, i) => (
                     <div key={i} className="window" style={{ margin: 0 }}>
                       <div className="title-bar" style={{ 
